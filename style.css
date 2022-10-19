@@ -21,15 +21,26 @@ main {
     justify-content: center;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Prata', serif;
     font-weight: lighter;
+    font-size: 2rem;
+}
+h3 {
+    font-family: 'Prata', serif;
+    font-weight: lighter;
+    font-size: 1rem;
 }
 
 p {
     font-family: 'Inter', sans-serif;
+    font-size: 1rem;
     font-weight: bold;
     color: gray;
+}
+
+#parrafo-principal {
+    font-size: 1.1rem;
 }
 
 header {
@@ -39,15 +50,20 @@ header {
 }
 
 #titulo-header {
-    padding: 5%;
+    padding: 2rem 1rem;
 }
 
 summary {
     list-style: none;
-    padding: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+#lista {
+    list-style: none;
 }
 
 #titulo-principal {
+    font-size: 2rem;
     padding: 1rem 0;
 }
 
@@ -58,14 +74,14 @@ summary {
 
 #logos {
     display: flex;
-    padding: 1.5rem 0;
+    padding: 2rem 0;
     width: 100%;
 }
 
 .contenedor-logos {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 
 .logo {
@@ -73,8 +89,8 @@ summary {
     padding: 0.5rem 0;
 }
 
-#contenedor {
-    width: 100%;
+.contenedor {
+    width: 90%;
 }
 
 .contenido {
@@ -86,23 +102,66 @@ summary {
     width: 100%;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active {
+    color: white;
+    opacity: 50%;
+}
+
+.descripcion {
+    font-weight: bold;
+}
+
 #contenedor-seccion {
     background-color: rgba(46,48,56,255);
 }
 
+article {
+    width: 90%;
+}
+
+#titulo-articulo {
+    padding-top: 3.5rem;
+}
+
 .parrafo {
     color: #a5a5a6;
+    padding: 0.5rem 0;
+}
+
+.seccion-parrafos {
+    padding-bottom: 3rem;
+}
+
+#padding-seccion {
+    padding: 5rem 0;
 }
 
 button {
-    background-color: rgb(229, 229, 104);
+    background-color: rgba(251,232,80,255);
+    border: none;
+    border-radius: 0%;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-family: 'Prata', serif;
+    font-size: 1rem;
+    font-weight: normal;
+    
 }
 
 footer {
+    width: 100%;
     background-color: rgba(46,48,56,255);
+}
+
+#padding-footer {
+    padding: 2rem;
     display: flex;
-    justify-content: center;
-    width: 100vw;
+    justify-content: space-between;
 }
 
 #logos-social {
@@ -110,5 +169,5 @@ footer {
 }
 
 .logo-social {
-    padding-right: 0.5rem;
+    padding-right: 1rem;
 }
