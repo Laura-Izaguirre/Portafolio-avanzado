@@ -1,30 +1,24 @@
+# Portafolio Avanzado
+> Recreación de página responsiva, adaptable para tres tamaños distintos de pantalla. 
 
-# Welcome to Codewell! 👋
+## Built With
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
-
-Free or paid, all templates are high quality and will make great portfolio pieces.
-
-### I've completed the challenge, now what?
-
-We recommend using one of these two websites to deploy your projects
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+- HTML
+- CSS
 
 
-### Submit your solution to Codewell
+## Authors
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+👤 **Laura**
 
-### Join our community on Slack
+- GitHub: [https://github.com/Laura-Izaguirre]()
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
+## 🤝 Contributing
 
-### Fonts Used
+Contributions, issues, and feature requests are welcome!
 
-For headings: https://fonts.google.com/specimen/Prata
-For body: https://fonts.google.com/specimen/Inter
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
