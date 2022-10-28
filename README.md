@@ -1,5 +1,5 @@
 # Portafolio Avanzado
-> Recreación de página responsiva adaptable para tres tamaños distintos de pantalla. 
+> Recreación de página responsiva adaptable a tres tamaños distintos de pantalla. 
 
 ## Built With
 
