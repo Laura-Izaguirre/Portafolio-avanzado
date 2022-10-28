@@ -78,7 +78,7 @@ summary {
 }
 
 .enlace:link, .enlace:visited {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
     text-decoration: none;
 }
@@ -98,9 +98,12 @@ summary {
 
 
 #logos {
+    display: none;
+}
+
+#logos-pantalla-pequeña {
     display: flex;
-    padding: 2rem 0;
-    width: 100%;
+    flex-direction: row;
 }
 
 .contenedor-logos {
@@ -233,6 +236,10 @@ footer {
         width: 97%;
     }
 
+    #logos-pantalla-pequeña {
+        display: none;
+    }
+
     .subtitulo {
         font-size: 2.5rem;
     }
@@ -313,6 +320,10 @@ footer {
 
     #parrafo-principal {
         width: 85%;
+    }
+
+    #logos-pantalla-pequeña {
+        display: none;
     }
 
     .contenedor-logos {
